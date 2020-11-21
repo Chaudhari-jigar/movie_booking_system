@@ -6,6 +6,7 @@ const studentrouter = require('./router/studentrouter');
 app.use(express.json());
 app.use(studentrouter);
 app.use(cors());
+
 // app.get("/",(req,res) =>{
 //     res.send("Hello world !!");
 // });
